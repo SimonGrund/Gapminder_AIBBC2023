@@ -13,15 +13,13 @@ A small subset of the data is readily available in R through the Gapminder packa
 The dataset in the gapminder R library contains 1,704 rows and 6 variables (country, continent, year, lifeExp, pop, and gdpPercap). Lots of additional data can be downloaded from the Gapminder website (see below) and potentially tied to the data from the Gapminder package. This requires a bit of data wrangling and handling of missing data in some cases.
 
 ## Potential questions:
-Can you make interesting visualizations of the data that gives you a better understanding of differences in e.g. life expectancy and population size?
-Can you predict life expectancy from the other variables, for a given year?
-Do hierarchical modeling and adaptive priors perform better than modeling each country independently, with each their own pre-specified prior? If so, what works best:
-Pre-specified identical priors for every country? 
-An adaptive prior based on all countries in the World?
-An adaptive prior based on all countries from within a continent?
-Can you predict unseen (held out) data?
-Can you estimate the population growth rate (potentially by transforming the population size) and its uncertainty?
-Does hierarchical modeling help?
+- Can you make interesting visualizations of the data that gives you a better understanding of differences in e.g. life expectancy and population size?
+- Can you do unsupervised analysis of the countries, and identify meaningful clusters that relate to e.g. socioeconomic status, culture or geography?
+- Can you predict life expectancy from the other variables, for a given year?
+          - Can you evaluate your model performance on held-out data?
+          - Does your model make sense on simulated data (e.g., what happens if we look a hundred years into the future?)
+- Can you estimate the population growth rate and its uncertainty?
+
 
 ## Gapminder website:
 A large number of additional statistics (for countries and years), such as CO2 emissions, can be downloaded from the Gapminder website:
