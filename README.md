@@ -15,9 +15,9 @@ The dataset in the gapminder R library contains 1,704 rows and 6 variables (coun
 ## Potential questions:
 - Can you make interesting visualizations of the data that gives you a better understanding of differences in e.g. life expectancy and population size?
 - Can you do unsupervised analysis of the countries, and identify meaningful clusters that relate to e.g. socioeconomic status, culture or geography?
-- Can you predict life expectancy from the other variables, for a given year?
-          - Can you evaluate your model performance on held-out data?
-          - Does your model make sense on simulated data (e.g., what happens if we look a hundred years into the future?)
+- Can you predict life expectancy from the other variables for a given year?
+  - Can you evaluate your model performance on held-out data?
+  - Does your model make sense on simulated data (e.g., what happens if we look a hundred years into the future?)
 - Can you estimate the population growth rate and its uncertainty?
 
 
