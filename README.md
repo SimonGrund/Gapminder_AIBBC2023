@@ -6,9 +6,9 @@ Gapminder data set was made famous by Hans Rosling, who used to educate the publ
 ## Data
 A small subset of the data is readily available in R through the Gapminder package. Load it using below code, or the load_data.R script in the code folder.
 
-   install.packages("gapminder")  
-   library(gapminder)
-   d = gapminder 
+          install.packages("gapminder")  
+          library(gapminder)
+          d = gapminder 
 
 The dataset in the gapminder R library contains 1,704 rows and 6 variables (country, continent, year, lifeExp, pop, and gdpPercap). Lots of additional data can be downloaded from the Gapminder website (see below) and potentially tied to the data from the Gapminder package. This requires a bit of data wrangling and handling of missing data in some cases.
 
